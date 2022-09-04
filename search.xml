@@ -6,9 +6,9 @@
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本篇文章的环境是在windows环境下编写。</p>
 <p>在日常工作中git少不了，所以编写本篇文章教大家如何使用git，便于日后工作与学习。</p>
 <p>git命令很多，但是常用的只有十多个。</p>
-<p><a href="#conclusion">命令总结</a></p>
 <span id="more"></span>
 
+<p><a href="#conclusion">命令总结</a></p>
 <h2 id="发展过程"><a href="#发展过程" class="headerlink" title="发展过程"></a>发展过程</h2><p>Git最初是由Linux开发者Linus用了仅仅两周时间纯C语言编写而成，在编写完成之后就立马上手接管Linux源代码，不过在此之前Linux是由BitMover公司开发的BitKeeper分布式版本控制系统所管理源代码，它是商业收费的分布式版本控制器，但BitMover公司看中Linux开源精神，免费授权给Linux社区使用，在2002年时，Linux开始使用BitKeeper分布式版本控制系统管理源代码，但好景不长，有一天Linux社区成员Andrew（samba（局域网共享文件c&#x2F;s程序）的作者）试图破解BitKeeper共享给所有人使用，被BitMover公司发现并收回了免费使用的版权，随后Linus就用了两周时间开发出了git(两周时间包括测试)，也就是目前为止最好用的分布式版本控制系统。</p>
 <h2 id="集中式与分布式的区别"><a href="#集中式与分布式的区别" class="headerlink" title="集中式与分布式的区别"></a>集中式与分布式的区别</h2><p>除了git还有svn、cvs这样的版本控制系统，它们的区别在于一个是分布式一个是集中式</p>
 <p>集中式就是svn和csv这样的版本控制系统，分布式是git</p>
