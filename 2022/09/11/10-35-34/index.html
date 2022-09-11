@@ -20,30 +20,56 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="个人博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="白孝安&amp;博客">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="前言日常开发中, 经常会使用 Git 来管理项目, IDE 使用 Pycharm , 使用 Pycharm 中的 Git 操作可以大大节省直接使用命令敲代码的时间.下面教大家如何使用 Pycharm 里面的 Git 插件来进行图形化的操作. 一、git clone(克隆) 使用 右键 来进行 clone 操作克隆远程仓库: 右键 项目 - &gt; Git -&gt; 克隆(clone)    填">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PyCharm中git的操作">
+<meta property="og:url" content="http://example.com/2022/09/11/10-35-34/index.html">
 <meta property="og:site_name" content="白孝安&amp;博客">
-<meta property="og:description" content="个人博客">
+<meta property="og:description" content="前言日常开发中, 经常会使用 Git 来管理项目, IDE 使用 Pycharm , 使用 Pycharm 中的 Git 操作可以大大节省直接使用命令敲代码的时间.下面教大家如何使用 Pycharm 里面的 Git 插件来进行图形化的操作. 一、git clone(克隆) 使用 右键 来进行 clone 操作克隆远程仓库: 右键 项目 - &gt; Git -&gt; 克隆(clone)    填">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911093915533.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911094210862.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911094327873.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911094901039.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911095316657.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911095345583.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911095738024.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911100020702.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911100031959.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911101120264.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911101830719.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911101951677.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911102113795.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911102125515.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911102148988.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911102449755.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911102842966.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911103148503.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911103252482.png">
+<meta property="og:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911103332133.png">
+<meta property="article:published_time" content="2022-09-11T02:35:34.000Z">
+<meta property="article:modified_time" content="2022-09-11T02:44:01.374Z">
 <meta property="article:author" content="白孝安">
+<meta property="article:tag" content="笔记">
+<meta property="article:tag" content="git">
+<meta property="article:tag" content="PyCharm">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911093915533.png">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2022/09/11/10-35-34/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>白孝安&博客</title>
+  <title>PyCharm中git的操作 | 白孝安&博客</title>
   
 
 
@@ -181,9 +207,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -199,10 +226,9 @@
       <meta itemprop="name" content="白孝安&博客">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/09/11/10-35-34/" class="post-title-link" itemprop="url">PyCharm中git的操作</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          PyCharm中git的操作
+        </h1>
     
         <div class="post-meta">
             <span class="post-meta-item">
@@ -248,7 +274,7 @@
     <div class="post-body" itemprop="articleBody">
     
       
-          <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>日常开发中, 经常会使用 <code>Git</code> 来管理项目, IDE 使用 <code>Pycharm</code> , 使用 <code>Pycharm</code> 中的 <code>Git</code> 操作可以大大节省直接使用命令敲代码的时间.<br>下面教大家如何使用 <code>Pycharm</code> 里面的 <code>Git</code> 插件来进行图形化的操作.</p>
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>日常开发中, 经常会使用 <code>Git</code> 来管理项目, IDE 使用 <code>Pycharm</code> , 使用 <code>Pycharm</code> 中的 <code>Git</code> 操作可以大大节省直接使用命令敲代码的时间.<br>下面教大家如何使用 <code>Pycharm</code> 里面的 <code>Git</code> 插件来进行图形化的操作.</p>
 <h2 id="一、git-clone-克隆"><a href="#一、git-clone-克隆" class="headerlink" title="一、git clone(克隆)"></a>一、git clone(克隆)</h2><ul>
 <li>使用 <code>右键</code> 来进行 <code>clone</code> 操作克隆远程仓库:</li>
 <li>右键 <code>项目</code> - &gt; <code>Git</code> -&gt; <code>克隆(clone)</code></li>
@@ -318,7 +344,6 @@
 <p><img src="/PyCharm%E4%B8%ADgit%E7%9A%84%E6%93%8D%E4%BD%9C/image-20220911103332133.png" alt="image-20220911103332133"></p>
 <h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>以上就是 <code>Pycharm</code> 中 <code>Git</code> 的简单操作, 学会之后可以在工作中完成绝大部分的 <code>Git</code> 操作, 学到的小伙伴赶紧用起来.</p>
 
-      
     </div>
     
     
@@ -326,200 +351,74 @@
     
     <div>
       
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+      
     </div>
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
+        <div class="reward-container">
+  <div>Q：如果阅读本文需要付费，你是否愿意为此支付1元？</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
       
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/09/11/09-20-48/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.gif">
-      <meta itemprop="name" content="白孝安">
-      <meta itemprop="description" content="个人博客">
-    </span>
-    
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="白孝安&博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/09/11/09-20-48/" class="post-title-link" itemprop="url">JDBC总复习</a>
-        </h2>
-    
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-    
-              <time title="创建时间：2022-09-11 09:20:48" itemprop="dateCreated datePublished" datetime="2022-09-11T09:20:48+08:00">2022-09-11</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/JDBC/" itemprop="url" rel="index"><span itemprop="name">JDBC</span></a>
-                </span>
-            </span>
-    
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>3.6k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>3 分钟</span>
-            </span>
-    
-        </div>
-      </header>
-    
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-    
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="白孝安 微信支付">
+        <p>微信支付</p>
+      </div>
       
-          <h2 id="第一章-JDBC概述"><a href="#第一章-JDBC概述" class="headerlink" title="第一章 JDBC概述"></a>第一章 JDBC概述</h2><h3 id="1-jdbc的概念"><a href="#1-jdbc的概念" class="headerlink" title="1.jdbc的概念"></a>1.jdbc的概念</h3><p>JDBC（Java DataBase Connectivity：java数据库连接）是一种用于执行SQL语句的Java API，可以为多种关系型数据库提供统一访问，它是由一组用Java语言编写的类和接口组成的。<br>JDBC的作用：可以通过java代码操作数据库</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/09/11/09-20-48/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
+      <div style="display: inline-block;">
+        <img src="/images/alipay.png" alt="白孝安 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
         
-      
-    </div>
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>白孝安
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://example.com/2022/09/11/10-35-34/" title="PyCharm中git的操作">http://example.com/2022/09/11/10-35-34/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章，均在可信时间戳认证机构完成确权，采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处，侵权必究！商业性使用请联系主理人购买授权许可。
+  </li>
+</ul>
+</div>
+
     
-    
-    
-    
-    <div>
-      
-    </div>
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/09/04/10-48-48/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.gif">
-      <meta itemprop="name" content="白孝安">
-      <meta itemprop="description" content="个人博客">
-    </span>
+          <div class="post-tags">
+              <a href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag"># 笔记</a>
+              <a href="/tags/git/" rel="tag"># git</a>
+              <a href="/tags/PyCharm/" rel="tag"># PyCharm</a>
+          </div>
     
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="白孝安&博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/09/04/10-48-48/" class="post-title-link" itemprop="url">Git常用命令</a>
-        </h2>
-    
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-    
-              <time title="创建时间：2022-09-04 10:48:48" itemprop="dateCreated datePublished" datetime="2022-09-04T10:48:48+08:00">2022-09-04</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a>
-                </span>
-            </span>
-    
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>3.8k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>3 分钟</span>
-            </span>
-    
-        </div>
-      </header>
-    
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-    
-      
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本篇文章的环境是在windows环境下编写。</p>
-<p>在日常工作中git少不了，所以编写本篇文章教大家如何使用git，便于日后工作与学习。</p>
-<p>git命令很多，但是常用的只有十多个。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/09/04/10-48-48/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
+
+    
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/09/11/09-20-48/" rel="prev" title="JDBC总复习">
+      <i class="fa fa-chevron-left"></i> JDBC总复习
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-    
-    
-    
-    
-    <div>
-      
-    </div>
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -572,6 +471,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81git-clone-%E5%85%8B%E9%9A%86"><span class="nav-number">1.1.</span> <span class="nav-text">一、git clone(克隆)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81git-commit-%E6%8F%90%E4%BA%A4"><span class="nav-number">1.2.</span> <span class="nav-text">二、git commit(提交)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81git-pull-%E6%8B%89%E5%8F%96"><span class="nav-number">1.3.</span> <span class="nav-text">三、git pull(拉取)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E5%A4%84%E7%90%86%E5%86%B2%E7%AA%81"><span class="nav-number">1.4.</span> <span class="nav-text">四、处理冲突</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81git-push-%E6%8E%A8%E9%80%81"><span class="nav-number">1.5.</span> <span class="nav-text">五、git push(推送)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AD%E3%80%81git-status-%E6%9F%A5%E7%9C%8B-Git-%E8%AE%B0%E5%BD%95"><span class="nav-number">1.6.</span> <span class="nav-text">六、git status(查看 Git 记录)</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">2.</span> <span class="nav-text">总结</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
