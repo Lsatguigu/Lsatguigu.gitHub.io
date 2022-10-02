@@ -338,18 +338,6 @@
       </tags>
   </entry>
   <entry>
-    <title>JavaWeb项目实战</title>
-    <url>/2022/10/02/13-52-54/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>JavaWeb</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>JavaWeb</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>PyCharm中git的操作</title>
     <url>/2022/09/11/10-35-34/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>日常开发中, 经常会使用 <code>Git</code> 来管理项目, IDE 使用 <code>Pycharm</code> , 使用 <code>Pycharm</code> 中的 <code>Git</code> 操作可以大大节省直接使用命令敲代码的时间.<br>下面教大家如何使用 <code>Pycharm</code> 里面的 <code>Git</code> 插件来进行图形化的操作.</p>
