@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-02T05:51:22.191Z</updated>
+  <updated>2022-10-02T05:53:37.194Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,26 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>JavaWeb项目实战(适合新手)</title>
-    <link href="http://example.com/2022/10/02/09-42-42/"/>
-    <id>http://example.com/2022/10/02/09-42-42/</id>
-    <published>2022-10-02T01:42:42.000Z</published>
-    <updated>2022-10-02T05:51:22.191Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="JavaWeb一个完整的搭建"><a href="#JavaWeb一个完整的搭建" class="headerlink" title="JavaWeb一个完整的搭建"></a>JavaWeb一个完整的搭建</h1><p>本文章仅供参考，适合新手搭建JavaWeb，学习此文章来打打基础还是可以的，如果有错误或者写的不好的地方，请多多指教。</p><p><strong>最后本项目只是提供一个框架和思路，对前端界面不做美化</strong></p><span id="more"></span>]]></content>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;JavaWeb一个完整的搭建&quot;&gt;&lt;a href=&quot;#JavaWeb一个完整的搭建&quot; class=&quot;headerlink&quot; title=&quot;JavaWeb一个完整的搭建&quot;&gt;&lt;/a&gt;JavaWeb一个完整的搭建&lt;/h1&gt;&lt;p&gt;本文章仅供参考，适合新手搭建JavaWeb，学习此文章来打打基础还是可以的，如果有错误或者写的不好的地方，请多多指教。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;最后本项目只是提供一个框架和思路，对前端界面不做美化&lt;/strong&gt;&lt;/p&gt;</summary>
+    <title>JavaWeb项目实战</title>
+    <link href="http://example.com/2022/10/02/13-52-54/"/>
+    <id>http://example.com/2022/10/02/13-52-54/</id>
+    <published>2022-10-02T05:52:54.000Z</published>
+    <updated>2022-10-02T05:53:37.194Z</updated>
     
     
     
-    <category term="java" scheme="http://example.com/categories/java/"/>
+    
+    <category term="JavaWeb" scheme="http://example.com/categories/JavaWeb/"/>
     
     
-    <category term="javaweb" scheme="http://example.com/tags/javaweb/"/>
+    <category term="Java" scheme="http://example.com/tags/Java/"/>
     
-    <category term="java" scheme="http://example.com/tags/java/"/>
+    <category term="JavaWeb" scheme="http://example.com/tags/JavaWeb/"/>
     
   </entry>
   
@@ -82,9 +77,9 @@
     <category term="JDBC" scheme="http://example.com/categories/JDBC/"/>
     
     
-    <category term="java" scheme="http://example.com/tags/java/"/>
-    
     <category term="笔记" scheme="http://example.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="java" scheme="http://example.com/tags/java/"/>
     
   </entry>
   

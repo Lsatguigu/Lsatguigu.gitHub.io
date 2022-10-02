@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>JavaWeb项目实战(适合新手)</title>
-    <url>/2022/10/02/09-42-42/</url>
-    <content><![CDATA[<h1 id="JavaWeb一个完整的搭建"><a href="#JavaWeb一个完整的搭建" class="headerlink" title="JavaWeb一个完整的搭建"></a>JavaWeb一个完整的搭建</h1><p>本文章仅供参考，适合新手搭建JavaWeb，学习此文章来打打基础还是可以的，如果有错误或者写的不好的地方，请多多指教。</p>
-<p><strong>最后本项目只是提供一个框架和思路，对前端界面不做美化</strong></p>
-<span id="more"></span>
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>javaweb</tag>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Git常用命令</title>
     <url>/2022/09/04/10-48-48/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本篇文章的环境是在windows环境下编写。</p>
@@ -348,8 +333,20 @@
         <category>JDBC</category>
       </categories>
       <tags>
-        <tag>java</tag>
         <tag>笔记</tag>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JavaWeb项目实战</title>
+    <url>/2022/10/02/13-52-54/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>JavaWeb</tag>
       </tags>
   </entry>
   <entry>
